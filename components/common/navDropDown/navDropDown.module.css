@@ -1,0 +1,10 @@
+.root{
+    @apply  w-8 h-8 relative 
+}
+
+.dropDown_menu{
+@apply   w-40 px-2 py-4 absolute top-14 right-0 border border-gray-200  flex flex-col  items-center gap-4 bg-gray-800 text-white rounded-lg
+ }  
+
+
+

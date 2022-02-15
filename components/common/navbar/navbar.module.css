@@ -1,0 +1,42 @@
+.root {
+  @apply border-gray-200 border-b bg-gray-800 fixed  w-full ;
+}
+
+.nav_container {
+  @apply w-full max-w-screen-2xl mx-auto px-4 md:px-6 py-5 flex justify-between items-center gap-8 flex-wrap  ; 
+}
+
+.logo {
+  @apply  w-24 ;
+}
+
+.nav_Links {
+  @apply hidden lg:flex gap-6 font-bold text-gray-300 ;
+}
+
+.nav_Links li {
+  @apply hover:text-white cursor-pointer 
+}
+
+
+.search_bar_container {
+  @apply grow order-last md:order-none md:w-fit w-full   ;
+}
+
+.search_bar_container {
+  @apply bg-black ;
+}
+
+
+
+.nav_right{
+  @apply  flex gap-2 justify-center items-center text-white;
+}
+
+
+
+.menu_icon{
+    @apply w-7 h-7 lg:hidden
+}
+
+

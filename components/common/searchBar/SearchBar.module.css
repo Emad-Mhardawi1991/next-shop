@@ -1,0 +1,19 @@
+.root {
+  @apply relative w-full h-full 
+}
+
+.search_input {
+  @apply w-full px-4 py-2   outline-none  bg-gray-300 
+} 
+
+.search_icon_box {
+  @apply pl-4  absolute right-2 top-1/2 -translate-y-1/2;
+}
+
+.search_icon {
+  @apply   text-gray-600 hover:text-gray-800;
+}
+
+.close{
+  @apply translate-y-full ease-in-out
+}

@@ -1,0 +1,20 @@
+.root{
+    @apply bg-gray-800 w-80  h-full fixed top-0 right-0  p-4 text-white lg:hidden z-20 ease-in-out shadow-lg shadow-white 
+}
+
+.sideDrawer_header{
+    @apply flex justify-between items-center pb-10
+}
+
+.sideDrawer_header .arrow{
+    @apply  text-lg w-8 h-8
+}
+
+.sideDrawer_header .logo{
+    @apply  w-20 
+}
+
+
+.nav_Links{
+    @apply flex flex-col justify-center items-center gap-6 text-xl uppercase font-semibold   
+}
